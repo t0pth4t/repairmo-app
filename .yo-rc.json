@@ -1,0 +1,26 @@
+{
+  "generator-jhipster": {
+    "baseName": "repairmo",
+    "packageName": "com.repairmo",
+    "packageFolder": "com/repairmo",
+    "authenticationType": "session",
+    "hibernateCache": "ehcache",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": true,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "797a7aa42cfda269793e17a57086a662c2f189ab",
+    "testFrameworks": [
+      "gatling",
+      "cucumber",
+      "protractor"
+    ]
+  }
+}

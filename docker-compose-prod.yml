@@ -1,0 +1,11 @@
+jhipster-prod-postgresql:
+  container_name: repairmo-prod-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  # - ~/volumes/jhipster/repairmo/prod-postgresql/:/var/lib/postgresql/
+  environment:
+  - POSTGRES_USER=repairmo
+  - POSTGRES_PASSWORD=
+  ports:
+  - "5432:5432"
+
